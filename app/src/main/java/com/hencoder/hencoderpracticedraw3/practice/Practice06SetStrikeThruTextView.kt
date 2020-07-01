@@ -21,6 +21,7 @@ class Practice06SetStrikeThruTextView : View {
 
     init {
         paint.textSize = 60f
+        paint.isStrikeThruText = true
         // 使用 Paint.setStrikeThruText() 来设置删除线
     }
 }

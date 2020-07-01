@@ -21,6 +21,7 @@ class Practice09SetTextScaleXView : View {
 
     init {
         paint.textSize = 60f
+        paint.textScaleX = 1.2f
         // 使用 Paint.setTextScaleX() 来改变文字宽度
     }
 }

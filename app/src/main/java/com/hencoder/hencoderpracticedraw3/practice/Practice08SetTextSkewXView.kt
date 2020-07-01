@@ -21,6 +21,7 @@ class Practice08SetTextSkewXView : View {
 
     init {
         paint.textSize = 60f
+        paint.textSkewX = -0.5f
         // 使用 Paint.setTextSkewX() 来让文字倾斜
     }
 }

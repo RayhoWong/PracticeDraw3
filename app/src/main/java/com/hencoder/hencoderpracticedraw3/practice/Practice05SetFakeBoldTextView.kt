@@ -21,6 +21,7 @@ class Practice05SetFakeBoldTextView : View {
 
     init {
         paint.textSize = 60f
+        paint.isFakeBoldText = true
         // 使用 Paint.setFakeBoldText() 来加粗文字
     }
 }

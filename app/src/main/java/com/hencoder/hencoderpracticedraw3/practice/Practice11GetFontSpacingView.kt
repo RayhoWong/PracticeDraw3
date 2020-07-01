@@ -19,8 +19,8 @@ class Practice11GetFontSpacingView : View {
         // 使用 Paint.getFontSpacing() 来获取推荐的行距
         val spacing = 20f
         canvas.drawText(text, 50f, 100f, paint)
-        canvas.drawText(text, 50f, 100 + spacing, paint)
-        canvas.drawText(text, 50f, 100 + spacing * 2, paint)
+        canvas.drawText(text, 50f, 100 + spacing + paint.fontSpacing, paint)
+        canvas.drawText(text, 50f, 100 + spacing * 2 + paint.fontSpacing * 2, paint)
     }
 
     init {
